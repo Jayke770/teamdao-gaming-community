@@ -3,7 +3,7 @@ import { ChevronRight } from 'framework7-icons/react'
 const card = Array.from({ length: 10 })
 export default function Tournaments() {
     return (
-        <div className="mx-auto py-20 px-4 w-full ">
+        <div className="mx-auto py-20 px-3 w-full ">
             {/* Header */}
             <div className="flex flex-col gap-2 items-center md:flex-row md:justify-between px-4 py-2">
                 <div className='flex items-center'>
@@ -46,7 +46,7 @@ export default function Tournaments() {
                                 <span className='uppercase bg-bgn text-[11px] text-primary px-2 py-0.5'>free entry</span>
                             </div>
                             <div className='flex flex-col pt-2 pb-1 px-3'>
-                                <div className='text-primary font-normal'>Game Name</div>
+                                <div className='text-primary font-normal text-md'>Mobile Legends: Bang Bang</div>
                                 <div className='text-xl py-2 text-zinc-100'>
                                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                                 </div>
