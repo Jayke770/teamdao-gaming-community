@@ -7,7 +7,7 @@ export default function UpcomingTournaments() {
             {/* Header */}
             <div className="flex flex-col gap-2 items-center md:flex-row md:justify-between px-4 py-2">
                 <div className='flex items-center'>
-                    <h1 className="text-3xl font-light font-teamdao tracking-[0.2em] ">Upcoming Tournaments</h1>
+                    <h1 className="text-3xl font-light font-teamdao tracking-[0.2em] text-center">Upcoming Tournaments</h1>
                 </div>
                 <div className='flex items-center'>
                     <Link href={'explore'} passHref>

@@ -1,9 +1,9 @@
 import Head from "next/head"
-import { Carousel, Discord, CreateYourOwnTournament, InprogressTournaments, CompletedTournaments, NavBar, UpcomingTournaments, Features } from '../components'
+import { Carousel, Discord, CreateYourOwnTournament, InprogressTournaments, CompletedTournaments, NavBar, UpcomingTournaments, Features, Blog, Sponsors, Community, Footer } from '../components'
 export default function Index() {
   return (
     <>
-      <Head> 
+      <Head>
         <title>TEAMDAO Gaming Community</title>
       </Head>
       <NavBar />
@@ -14,6 +14,10 @@ export default function Index() {
       <CompletedTournaments />
       <Discord />
       <Features />
+      <Blog />
+      <Sponsors />
+      <Community />
+      <Footer />
     </>
   )
 }
