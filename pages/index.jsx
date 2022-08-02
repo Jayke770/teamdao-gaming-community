@@ -3,7 +3,7 @@ import { Carousel, Discord, CreateYourOwnTournament, InprogressTournaments, Comp
 export default function Index() {
   return (
     <>
-      <Head>
+      <Head> 
         <title>TEAMDAO Gaming Community</title>
       </Head>
       <NavBar />

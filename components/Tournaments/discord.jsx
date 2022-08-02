@@ -5,8 +5,8 @@ export default function Discord() {
             <div className='flex flex-col bg-slate-900/90 h-full'>
                 <div className='py-10 px-10 lg:px-20 flex gap-3 flex-col xl:flex-row xl:justify-between'>
                     <div className='flex flex-col gap-5'>
-                        <div className='text-5xl font-light'>Join our Discord!</div>
-                        <div className='text-lg font-semibold'>
+                        <div className='text-4xl lg:text-5xl font-light'>Join our Discord!</div>
+                        <div className='text-md lg:text-lg font-semibold'>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         </div>
                     </div>
@@ -22,11 +22,11 @@ export default function Discord() {
                         </Link>
                     </div>
                 </div>
-                <div className='h-full px-20 py-10 lg:px-36'>
+                <div className='h-full pt-10 px-10 lg:px-36 flex items-end'>
                     <img
                         alt="discord"
                         src='/assets/images/discord-chat.webp'
-                        className='w-full h-full object-fill' />
+                        className='w-full h-full object-cover' />
                 </div>
             </div>
         </div>
