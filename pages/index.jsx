@@ -1,5 +1,5 @@
 import Head from "next/head"
-import { Carousel, NavBar, Tournaments } from '../components'
+import { Carousel, InprogressTournaments, NavBar, UpcomingTournaments } from '../components'
 export default function Index() {
   return (
     <>
@@ -8,7 +8,8 @@ export default function Index() {
       </Head>
       <NavBar />
       <Carousel />
-      <Tournaments />
+      <UpcomingTournaments />
+      <InprogressTournaments />
     </>
   )
 }

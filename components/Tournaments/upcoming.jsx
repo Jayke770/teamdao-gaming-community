@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { ChevronRight } from 'framework7-icons/react'
 const card = Array.from({ length: 10 })
-export default function Tournaments() {
+export default function UpcomingTournaments() {
     return (
         <div className="mx-auto py-20 px-3 w-full ">
             {/* Header */}
@@ -69,12 +69,12 @@ export default function Tournaments() {
                         {/* Card Footer */}
                         <div className='flex justify-between relative w-full h-[45px] bg-slate-800 rounded-b-lg'>
                             <div className='flex justify-center items-center w-full'>
-                                <span>Aug 1, 8:00 PM</span>
+                                <span className='text-primary text-md'>Aug 1, 8:00 PM</span>
                             </div>
                             <div className='flex w-full relative bg-primary rounded-br-lg'>
                                 <Link passHref href={'hosted'}>
                                     <a
-                                        className='after:mr-2 after:w-0 after:left-0 after:top-0 after:absolute after:content-[""] after:border-b-[45px] after:border-b-transparent after:border-l-[20px] after:border-l-slate-800 flex items-center justify-center text-black relative text-xl font-medium !w-full h-full text-center'>
+                                        className='after:mr-2 after:w-0 after:left-0 after:top-0 after:absolute after:content-[""] after:border-b-[45px] after:border-b-transparent after:border-l-[20px] after:border-l-slate-800 flex items-center justify-center text-black relative text-lg font-medium !w-full h-full text-center'>
                                         $100000
                                     </a>
                                 </Link>

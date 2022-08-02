@@ -34,3 +34,12 @@
 .swiper-pagination-bullet-active {
     @apply  !bg-primary !text-black;
 }
+
+.swiper-button-disabled {
+    @apply  !hidden;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    @apply !text-primary;
+}
