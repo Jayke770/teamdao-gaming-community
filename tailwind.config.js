@@ -7,6 +7,9 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      fontFamily: {
+        teamdao: ['teamdao']
+      },
       colors: {
         bgn: '#0e1018',
         primary: '#2afe30',

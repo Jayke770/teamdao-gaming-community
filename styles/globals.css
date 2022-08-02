@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'teamdao';
+    src: url(/assets/fonts/TEAMDAO-Regular.otf);
+}
+
 @supports (backdrop-filter: blur(20px)) {
     .translucent {
         --tw-bg-opacity: 0.8 !important;
@@ -41,5 +46,5 @@
 
 .swiper-button-next,
 .swiper-button-prev {
-    @apply !text-primary;
+    @apply  !text-primary;
 }
