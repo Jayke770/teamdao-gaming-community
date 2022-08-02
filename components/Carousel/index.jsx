@@ -21,11 +21,11 @@ export default function Carousel() {
             className="mySwiper mt-[60px]">
             {card.map((_, i) => (
                 <SwiperSlide key={i}>
-                    <div className="">
+                    <div>
                         <img
                             alt="sample"
                             src={`/assets/tmp/${i + 1}.png`}
-                            className="h-64 lg:h-[400px] object-fill" />
+                            className="h-44 w-full lg:h-[400px] object-fill" />
                     </div>
                 </SwiperSlide>
             ))}

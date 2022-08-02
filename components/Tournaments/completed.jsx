@@ -4,13 +4,13 @@ import Link from 'next/link'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation } from "swiper"
 const card = Array.from({ length: 10 })
-export default function InprogressTournaments() {
+export default function CompletedTournaments() {
     return (
         <div className="mx-auto py-10 px-3 w-full ">
             {/* Header */}
             <div className="flex flex-col gap-2 items-center md:flex-row md:justify-between px-4 py-2">
                 <div className='flex items-center'>
-                    <h1 className="text-3xl font-light font-teamdao tracking-[0.2em]">In Progress Tournaments</h1>
+                    <h1 className="text-3xl font-light font-teamdao tracking-[0.2em]">Completed Tournaments</h1>
                 </div>
             </div>
             {/* Cards */}
@@ -21,7 +21,7 @@ export default function InprogressTournaments() {
                     slidesPerView={1}
                     breakpoints={{
                         640: {
-                            slidesPerView: 1
+                            slidesPerView: 1,
                         },
                         1024: {
                             slidesPerView: 3,

@@ -1,5 +1,5 @@
 import Head from "next/head"
-import { Carousel, InprogressTournaments, NavBar, UpcomingTournaments } from '../components'
+import { Carousel, Discord, CreateYourOwnTournament, InprogressTournaments, CompletedTournaments, NavBar, UpcomingTournaments, Features } from '../components'
 export default function Index() {
   return (
     <>
@@ -10,6 +10,10 @@ export default function Index() {
       <Carousel />
       <UpcomingTournaments />
       <InprogressTournaments />
+      <CreateYourOwnTournament />
+      <CompletedTournaments />
+      <Discord />
+      <Features />
     </>
   )
 }
