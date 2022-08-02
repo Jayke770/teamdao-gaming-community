@@ -1,8 +1,14 @@
 import Link from 'next/link'
 export default function Footer() {
     return (
-        <div className="border-t border-slate-800 px-8 md:px-12 pt-10 w-full flex flex-col">
-            <div className="flex flex-col gap-2 lg:grid lg:grid-cols-2 w-full">
+        <div className="relative border-t border-slate-800 px-8 md:px-12 pt-10 w-full flex flex-col overflow-hidden">
+            <div className='absolute w-full h-full top-0 left-0 flex justify-center items-center md:justify-end opacity-50 md:pr-20'>
+                <img
+                    alt="logo 3d"
+                    src="/assets/images/logo-3d-2.svg"
+                    className='object-contain h-full w-40 rotate-[40deg] ' />
+            </div>
+            <div className="z-10 flex flex-col gap-2 lg:grid lg:grid-cols-2 w-full">
                 <div className="flex md:justify-center md:items-center lg:justify-start lg:items-start">
                     <img
                         alt="teamdao logo"
