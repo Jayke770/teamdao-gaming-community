@@ -22,7 +22,7 @@ export default function Discord() {
                         </Link>
                     </div>
                 </div>
-                <div className='h-full pt-10 px-10 lg:px-36 flex items-end'>
+                <div className='h-full pt-10 lg:px-36 flex items-end'>
                     <img
                         alt="discord"
                         src='/assets/images/discord-chat.webp'
